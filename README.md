@@ -1,4 +1,4 @@
-# WALLET WEB APPLICATION DASHBORS
+# WALLET WEB APPLICATION DASHBORD
 
 # Description
 wallet web application is an intuitive web application designed to help you manage your personal finances. With features like expense tracking, income visualization, and interactive statistics, this app simplifies daily financial management.
@@ -57,8 +57,7 @@ Material UI
 Bootstrap
 * Backend:
 REST API 
-Node js
-Express js
+Node js/Express js
 * Package Management:
 Vite.js for bundling.
 Axios for API calls.
@@ -127,4 +126,4 @@ For any questions or suggestions, reach out to us:
 
 Email: eraymutabesha4@gmail.com
 
-
+![]('/public/screenshoot/Capture d’écran du 2025-01-19 11-38-30.png')

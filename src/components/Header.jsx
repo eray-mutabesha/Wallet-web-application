@@ -1,14 +1,14 @@
 import { useEffect,useState } from "react";
 import axios from "axios";
 import toast from "react-hot-toast";
-
+import { useNavigate } from "react-router-dom";
 
 
 function Header() {
   const BASE_URL = import.meta.env.VITE_API_URL;
   const token = localStorage.getItem('accessToken');
   const [UserDatas,SetUserDatas]=useState([])
-
+  const navigate=useNavigate()
 
   const GetUserDatas =()=>{
     axios.get(`${BASE_URL}/GetUserData`,{
@@ -30,8 +30,10 @@ useEffect(()=>{
 },[])
 
 const handledeconnexion = ()=>{
+  window.location.reload()
   localStorage.clear()
- navigate("/")
+
+   navigate("/")
 }
 
 
