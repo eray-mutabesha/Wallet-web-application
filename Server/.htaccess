@@ -1,0 +1,27 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/buro3496/walletwebapplication.nguvutech.com/server"
+PassengerBaseURI "/"
+PassengerNodejs "/home/buro3496/nodevenv/walletwebapplication.nguvutech.com/server/18/bin/node"
+PassengerAppType node
+PassengerStartupFile index.js
+PassengerAppLogFile "/home/buro3496/test.log"
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/buro3496/walletwebapplication.nguvutech.com/server"
+PassengerBaseURI "/"
+PassengerNodejs "/home/buro3496/nodevenv/walletwebapplication.nguvutech.com/server/18/bin/node"
+PassengerAppType node
+PassengerStartupFile index.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# Passer les requêtes Node.js à Passenger
+PassengerAppRoot /home/buro3496/walletwebapplication.nguvutech.com/
+PassengerBaseURI /api
+PassengerAppType node
+PassengerStartupFile /home/buro3496/walletwebapplication.nguvutech.com/server/index.js
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
+<IfModule Litespeed>
+SetEnv JWT_SECRET=@eray_13467952_challenge_code_of_africa@
+</IfModule>
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END
+
+
