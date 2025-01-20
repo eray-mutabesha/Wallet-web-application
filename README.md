@@ -114,6 +114,8 @@ Sample API Response:
   }
 ]
 
+# note
+the backend side are in a folder called *Server 
 
 # Contributions
 Contributions are welcome! If you want to enhance the app or report a bug, please create an issue or submit a pull request.
